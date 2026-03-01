@@ -17,10 +17,10 @@ Official macOS release artifacts and release notes for Mac125 (no source code).
 ## Install (macOS)
 
 1. Download the latest `.dmg` or `.zip` from Releases.
-2. If using `.dmg`, open it and drag `MacUniden125.app` to `Applications`.
-3. If using `.zip`, extract then move `MacUniden125.app` to `Applications`.
+2. If using `.dmg`, open it and drag `Mac125.app` to `Applications`.
+3. If using `.zip`, extract then move `Mac125.app` to `Applications`.
 4. On first launch, if macOS blocks the app:
-   - right-click `MacUniden125.app` and choose `Open`
+   - right-click `Mac125.app` and choose `Open`
    - confirm `Open` in the security prompt
 
 ### If macOS says the app is "damaged" or cannot be opened
@@ -36,7 +36,7 @@ Try:
 3. If needed, run:
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/MacUniden125.app
+xattr -dr com.apple.quarantine /Applications/Mac125.app
 ```
 
 ## Verify Downloads
@@ -46,8 +46,8 @@ Use `SHA256SUMS.txt` to verify artifact integrity.
 Example:
 
 ```bash
-shasum -a 256 MacUniden125_v0.3.4_macos.dmg
-shasum -a 256 MacUniden125_v0.3.4_macos.zip
+shasum -a 256 Mac125_v0.3.5_macos.dmg
+shasum -a 256 Mac125_v0.3.5_macos.zip
 ```
 
 ## Support
