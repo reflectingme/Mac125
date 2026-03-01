@@ -1,0 +1,2 @@
+55c6899dd74759363cc49fd6376ef4eadbf86c5a9e3b493cd30fa428b7c8ad13  MacUniden125_v0.3.4_macos.dmg
+db78fd48bb6a03a79df88534a9ad2c3a72fdc44f6d656be1448ba6611cb9285b  MacUniden125_v0.3.4_macos.zip
