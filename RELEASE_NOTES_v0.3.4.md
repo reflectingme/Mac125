@@ -1,4 +1,4 @@
-# MacUniden125 v0.3.4
+# Mac125 v0.3.4
 
 Release date: 2026-03-01
 
