@@ -16,6 +16,16 @@ Release date: 2026-03-01
 
 - This build is unsigned.
 - If macOS blocks first launch, right-click the app and choose `Open`.
+- If macOS still blocks, go to:
+  - `System Settings` -> `Privacy & Security`
+  - choose `Open Anyway` / `Allow Anyway` for the blocked app
+- If needed, run:
+
+```bash
+xattr -dr com.apple.quarantine /Applications/MacUniden125.app
+```
+
+Gatekeeper can sometimes show "damaged" wording for unsigned apps due to quarantine/security policy checks.
 
 ## Artifacts
 

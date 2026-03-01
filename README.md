@@ -23,6 +23,22 @@ Official macOS release artifacts and release notes for Mac125 (no source code).
    - right-click `MacUniden125.app` and choose `Open`
    - confirm `Open` in the security prompt
 
+### If macOS says the app is "damaged" or cannot be opened
+
+Because the current release is unsigned, macOS Gatekeeper may block first launch with wording that can look like corruption. This is often a security policy/quarantine check rather than actual file damage.
+
+Try:
+
+1. Move app to `Applications`, then right-click `Open`.
+2. If still blocked, open:
+   - `System Settings` -> `Privacy & Security`
+   - find the blocked app warning and choose `Open Anyway` / `Allow Anyway`
+3. If needed, run:
+
+```bash
+xattr -dr com.apple.quarantine /Applications/MacUniden125.app
+```
+
 ## Verify Downloads
 
 Use `SHA256SUMS.txt` to verify artifact integrity.
