@@ -14,7 +14,7 @@ Official macOS release artifacts and release notes for Mac125 (no source code).
 - This repository does not contain source code.
 - Current release builds are unsigned.
 
-## Packaging Policy
+## App Packaging policy and version compatability
 
 - `Mac125 is currently distributed directly via GitHub Releases (not through the Apple App Store).`
 - `Current release testing is on a Mac Studio running macOS Tahoma 26.3, so this is the only version we can guarantee at this time, though it will likely run on other Tahoma versions as well.`
