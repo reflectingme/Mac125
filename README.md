@@ -14,6 +14,10 @@ Official macOS release artifacts and release notes for Mac125 (no source code).
 - This repository does not contain source code.
 - Current release builds are unsigned.
 
+## Packaging Policy
+
+Mac125 is currently distributed directly via GitHub Releases (unsigned, and not via the Apple App Store). Release packaging is produced from `Mac125.spec`; `MacUniden125.spec` is retained in the private source repository only as a legacy reference. If Mac125 gains enough interest, this may move to Apple Developer signing/notarization (and potentially App Store distribution) in a future release.
+
 ## Install (macOS)
 
 1. Download the latest `.dmg` or `.zip` from Releases.
