@@ -54,8 +54,8 @@ Use `SHA256SUMS.txt` to verify artifact integrity.
 Example:
 
 ```bash
-shasum -a 256 Mac125_v0.3.5_macos.dmg
-shasum -a 256 Mac125_v0.3.5_macos.zip
+shasum -a 256 Mac125_v0.3.6_macos.dmg
+shasum -a 256 Mac125_v0.3.6_macos.zip
 ```
 
 ## Support
