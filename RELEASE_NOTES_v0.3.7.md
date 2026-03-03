@@ -14,6 +14,10 @@ Release date: 2026-03-02
 ## Distribution Notes
 
 - This build is unsigned.
+- If macOS shows a warning that the app is "damaged" or not supported, this is a Gatekeeper trust prompt for unsigned apps and does not mean the app is dead.
+
+![Example macOS first-launch warning](https://raw.githubusercontent.com/reflectingme/Mac125/main/macOS_warning.png)
+
 - If macOS blocks first launch, right-click the app and choose `Open`.
 - If macOS still blocks, go to:
   - `System Settings` -> `Privacy & Security`

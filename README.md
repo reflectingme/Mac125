@@ -35,6 +35,10 @@ Official macOS release artifacts and release notes for Mac125 (no source code).
 
 Because the current release is unsigned, macOS Gatekeeper may block first launch with wording that can look like corruption. This is often a security policy/quarantine check rather than actual file damage.
 
+This does not mean Mac125 is dead or broken. It is a macOS security warning shown before first trust is granted.
+
+![Example macOS first-launch warning](macOS_warning.png)
+
 Try:
 
 1. Move app to `Applications`, then right-click `Open`.
