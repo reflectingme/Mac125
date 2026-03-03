@@ -15,7 +15,7 @@ Release date: 2026-03-02
 
 - This build is unsigned.
 - If macOS shows a warning that the app is "damaged" or not supported, this is a Gatekeeper trust prompt for unsigned apps and does not mean the app is dead.
-- If the warning dialog shows `Cancel` and `Move to Bin`, select `Cancel` and do one of the following:
+- If the warning dialog is shown, select `Cancel` and do one of the following:
 
 ![Example macOS first-launch warning](https://raw.githubusercontent.com/reflectingme/Mac125/main/macOS_warning.png)
 
