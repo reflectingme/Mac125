@@ -34,3 +34,7 @@ xattr -dr com.apple.quarantine /Applications/Mac125.app
 - `Mac125_v0.3.7_macos.dmg`
 - `Mac125_v0.3.7_macos.zip`
 - `SHA256SUMS.txt`
+
+## Support
+
+- Discord (best support channel): <https://discord.gg/89BugNgZN9>
