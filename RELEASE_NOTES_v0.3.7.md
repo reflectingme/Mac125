@@ -31,8 +31,12 @@ xattr -dr com.apple.quarantine /Applications/Mac125.app
 
 ## Artifacts
 
+- Apple Silicon:
 - `Mac125_v0.3.7_macos.dmg`
 - `Mac125_v0.3.7_macos.zip`
+- Intel (`x86_64`):
+- `Mac125_v0.3.7_macos_x86_64.dmg`
+- `Mac125_v0.3.7_macos_x86_64.zip`
 - `SHA256SUMS.txt`
 
 ## Support
