@@ -24,6 +24,8 @@ Official macOS release artifacts and release notes for Mac125 (no source code).
 
 ## Install (macOS)
 
+Mac125 v0.3.8 and later is available for both Apple Silicon and Intel (`x86_64`) Macs. Download the artifact that matches your Mac.
+
 1. Download the latest `.dmg` or `.zip` from Releases.
 2. If using `.dmg`, open it and drag `Mac125.app` to `Applications`.
 3. If using `.zip`, extract then move `Mac125.app` to `Applications`.
