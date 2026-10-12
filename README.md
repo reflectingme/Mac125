@@ -14,17 +14,16 @@ Official macOS release artifacts and release notes for Mac125 (no source code).
 - This repository does not contain source code.
 - Current release builds are unsigned.
 
-## App Packaging policy and version compatability
+## App Packaging Policy and Version Compatibility
 
 - `Mac125 is currently distributed directly via GitHub Releases (not through the Apple App Store).`
-- `Current release testing is on a Mac Studio running macOS Tahoma 26.3, so this is the only version we can guarantee at this time, though it will likely run on other Tahoma versions as well.`
-- `Due to Apple security/runtime policy differences between macOS versions, compatibility with older macOS releases may vary.`
-- `Where Mac125 is compatible, it is safe to run as provided in this release.`
+- `Mac125 v0.5.2 is a universal Apple Silicon and Intel build targeting macOS 12 or later.`
+- `Compatibility depends on the Mac and macOS version in use; verify the release notes and keep a backup before making important scanner changes.`
 - `If interest grows, future releases may move to Apple Developer signing/notarization (and potentially App Store distribution).`
 
 ## Install (macOS)
 
-Mac125 v0.3.8 and later is available for both Apple Silicon and Intel (`x86_64`) Macs. Download the artifact that matches your Mac.
+Mac125 v0.5.2 is a single universal download for both Apple Silicon and Intel (`x86_64`) Macs.
 
 1. Download the latest `.dmg` or `.zip` from Releases.
 2. If using `.dmg`, open it and drag `Mac125.app` to `Applications`.
@@ -61,8 +60,7 @@ Use `SHA256SUMS.txt` to verify artifact integrity.
 Example:
 
 ```bash
-shasum -a 256 Mac125_v0.3.8_macos.dmg
-shasum -a 256 Mac125_v0.3.8_macos.zip
+shasum -a 256 Mac125_v0.5.2_macos.dmg
 ```
 
 ## Support
